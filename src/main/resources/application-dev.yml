@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://dblib.csnehrbt582x.eu-north-1.rds.amazonaws.com:3306/db_library
+    url: jdbc:mysql://containers-us-west-37.railway.app:6579/railway
     username: root
-    password: 3094410014
+    password: Fr86cFLjMBKZS6yrrG0p
 
   sql:
     init:
