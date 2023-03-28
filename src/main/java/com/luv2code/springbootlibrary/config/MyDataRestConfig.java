@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 @Configuration
 public class MyDataRestConfig implements RepositoryRestConfigurer {
 
-    private String theAllowedOrigins = "http://localhost:3000";
+    private String theAllowedOrigins = "https://finedefinition.github.io/library-project/";
 
     @Override
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config,
