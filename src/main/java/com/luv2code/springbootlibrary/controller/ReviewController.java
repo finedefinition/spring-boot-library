@@ -3,6 +3,7 @@ package com.luv2code.springbootlibrary.controller;
 import com.luv2code.springbootlibrary.requestmodels.ReviewRequest;
 import com.luv2code.springbootlibrary.service.ReviewService;
 import com.luv2code.springbootlibrary.utils.ExtractJWT;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.*;
 
 @CrossOrigin("https://localhost:3000")

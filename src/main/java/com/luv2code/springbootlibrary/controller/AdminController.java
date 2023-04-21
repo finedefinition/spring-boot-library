@@ -4,6 +4,7 @@ import com.luv2code.springbootlibrary.requestmodels.AddBookRequest;
 import com.luv2code.springbootlibrary.service.AdminService;
 import com.luv2code.springbootlibrary.utils.ExtractJWT;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.*;
 
 @CrossOrigin("https://localhost:3000")

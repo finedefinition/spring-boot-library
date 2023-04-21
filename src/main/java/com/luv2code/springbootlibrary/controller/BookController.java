@@ -5,6 +5,7 @@ import com.luv2code.springbootlibrary.responsemodels.ShelfCurrentLoansResponse;
 import com.luv2code.springbootlibrary.service.BookService;
 import com.luv2code.springbootlibrary.utils.ExtractJWT;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
